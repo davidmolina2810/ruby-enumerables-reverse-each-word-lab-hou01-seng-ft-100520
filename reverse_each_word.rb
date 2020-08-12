@@ -21,6 +21,6 @@ end
 #3. Use .join(" ") to join reverse_arr into str and return
 def reverse_each_word(str)
   arr = str.split(" ")
-  reverse_arr = arr.collect! {|word| word.reverse}
+  reverse_arr = arr.collect {|word| word.reverse}
   reverse_arr.join(" ")
 end
