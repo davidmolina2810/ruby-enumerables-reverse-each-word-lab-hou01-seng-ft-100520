@@ -18,7 +18,7 @@ end
 
 #1. Use .split(" ") to turn str into array and assign to arr
 #2. Use .collect! on arr and return array with each string reversed and assign to reverse_arr
-#3. Use .join(" ") to join reverse_arr into str and return 
+#3. Use .join(" ") to join reverse_arr into str and return
 def reverse_each_word(str)
   arr = str.split(" ")
   reverse_arr = arr.collect! {|word| word.reverse}
